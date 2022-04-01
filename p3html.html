@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="p3style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="top">
+        <h3 class="heading">THE CODE REVIEW</h3>
+    </header>
+    <form>
+        <footer class="foot">
+
+            <h4 class="signup">Signup for our newsletter</h4>
+            <p>Get the latest news on how your code is doing right in your inbox.</p>
+        </footer>
+        <main>
+            <div class="blackline"></div>
+            <div class="grayline"></div>
+
+            <h4 class="contactheader">Contact Information</h4>
+
+            <fieldset class="info-content">
+
+                <div class="row">
+                    <div class="">
+                        <fieldset>
+                            <legend>
+                                <label for="fullname" class="label">Full name</label>
+                            </legend>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="fullname input" type="text" id="fullname" placeholder="Required" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label for="email" class="label"> Email Address</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="email input box" type="email" id="email" placeholder="Required" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label for="tel" class="label">Phone Number</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="telephone number input" type="tel" id="tel" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label for="address" class="label">Street Address</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="address input box" type="text" id="address" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label for="city" class="label">City</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="city input box" type="text" id="city" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label class="label" for="state">State</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+
+                            <select id="state" name="user state">
+                                <option>Choose State</option>
+                                <option value="Alabama">Alabama</option>
+                                <option>Maryland</option>
+                                <option>Virginia</option>
+                            </select>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <fieldset>
+                            <label class="label" for="zipcode">Zip Code</label>
+                        </fieldset>
+                    </div>
+                    <div class="row2">
+                        <fieldset>
+                            <input name="zip code input" type="text" id="zipcode" class="input">
+                        </fieldset>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="newsletter">
+                <fieldset>
+                    <legend>
+                        <h4 class="newsletterheader">Newsletter</h4>
+                    </legend>
+                    <p class="newsp">Select the newsletter you would like to recieve.</p>
+
+                    <input name="html news checkbox" type="checkbox" id="checklist" value="html news"><label
+                        class="htmlcheck" for="checklist">HTML
+                        News
+
+                    </label>
+                    <br>
+                    <input name="css news checkbox" type="checkbox" id="checklist2" value="css news"><label
+                        class="htmlcheck" for="checklist2">CSS
+                        News
+
+                    </label>
+                    <br>
+                    <input name="Javascript news checkbox" type="checkbox" id="checklist3"
+                        value="javascript news"><label class="htmlcheck" for="checklist3">Javascript News
+                    </label>
+                    <br>
+                    <p class="newsformat">Newsletter Format</p>
+                    <input name=" radio button" type="radio" id="radio1"> <label for="radio1" class="html1">HTML</label>
+                    <br>
+                    <input name=" radio button" type="radio" id="radio2"> <label for="radio2" class="plain">Plain
+                        Text</label>
+                    <br>
+                    <p class="finalp">Other topics you would like to hear about.</p>
+                    <textarea id="textbox" name="comment section input"></textarea>
+                </fieldset>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="buttondiv">
+                <button>Sign Up</button>
+            </div>
+            <p class="copyright"><i>Copyright The Code Review</i></p>
+        </footer>
+    </form>
+</body>
+
+</html>
